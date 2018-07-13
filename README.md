@@ -25,12 +25,12 @@ Hide your message in a SUDOKU puzzle
 **Software requirements:**
    
    The following list includes the necessary software required for the operation of the system. It includes,
-      * Python 2.7. (Execution)
-      * Tesseract 0.9.
-      * Numpy.
-      * Tkinter. (User-Interface)
-      * Opencv2. (OCR)
-      * Pillow.
+      1. Python 2.7. (Execution)
+      2. Tesseract 0.9.
+      3. Numpy.
+      4. Tkinter. (User-Interface)
+      5. Opencv2. (OCR)
+      6. Pillow.
  
  
 

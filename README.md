@@ -28,7 +28,8 @@ Hide your message in a SUDOKU puzzle
       * Opencv2. (OCR)
       * Pillow.
  
- **Steps to Execute:**
+ **Steps to Execute: **
+  
   ***Sender:***
    * Run SenderSudoku.py and input an unsolved sudoku.
    * Click Solve.
@@ -36,6 +37,7 @@ Hide your message in a SUDOKU puzzle
    * Select the Index.
    * Click on Encrypt.
    * Send the Final Sudoku Image and the key to the other enduser (via some protected medium).
+   
   ***Receiver:***
    * Run ReceiverSudoku.py and input the Final Sudoku Image.
    * Click Solve.

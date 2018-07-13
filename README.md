@@ -24,7 +24,8 @@ Hide your message in a SUDOKU puzzle
 
 **Software requirements:**
    
-   The following list includes the necessary software required for the operation of the system. It includes,
+   The following list includes the necessary software required for the operation of the system. It includes
+   
       1. Python 2.7. (Execution)
       2. Tesseract 0.9.
       3. Numpy.

@@ -1,5 +1,5 @@
 # Conceal-In-a-Puzzle
-Hide your message in a SUDOKU puzzle
+**Hide your message in a SUDOKU puzzle**
 
    In our project we used Optical Character Recognition mechanism to extract the image from the user which contains an unsolved o partially filled SUDOKU which is a logic based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 sub-grids that compose the grid also called "boxes", "blocks", "regions", or "sub-squares" contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a unique solution. After extracting the unsolved Sudoku image we incorporated Knuth’s algorithm or the Dancing links algorithm to solve the Sudoku puzzle. Then using our own algorithm we embed the user’s data or a message into the Sudoku blanks without disrupting the rules of the puzzle.
  
@@ -15,12 +15,12 @@ Hide your message in a SUDOKU puzzle
 
 **Limitations and Recomendations:**
   
-  1. The data from the user should be in image format with an unsolved Sudoku in it.
-  2. The image should not be distorted because of the OCR limitations.
-  3. The image should be in digital format.
-  4. The data or the message can contain any character that contains ASCII value.
-  5. The image from the user may not be uniformly scaled and hence should be done for effective extraction.
-  6. The All the images are transformed from RGB to Gray scale images. 
+    1. The data from the user should be in image format with an unsolved Sudoku in it.
+    2. The image should not be distorted because of the OCR limitations.
+    3. The image should be in digital format.
+    4. The data or the message can contain any character that contains ASCII value.
+    5. The image from the user may not be uniformly scaled and hence should be done for effective extraction.
+    6. The All the images are transformed from RGB to Gray scale images. 
 
 **Software requirements:**
    

@@ -33,7 +33,7 @@ Hide your message in a SUDOKU puzzle
       * Pillow.
  
  
- **Steps to Execute: **
+ **Steps to Execute:**
  
   ***Sender:***
    * Run SenderSudoku.py and input an unsolved sudoku.

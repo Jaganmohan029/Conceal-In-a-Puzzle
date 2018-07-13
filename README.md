@@ -4,6 +4,7 @@ Hide your message in a SUDOKU puzzle
    In our project we used Optical Character Recognition mechanism to extract the image from the user which contains an unsolved o partially filled SUDOKU which is a logic based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 sub-grids that compose the grid also called "boxes", "blocks", "regions", or "sub-squares" contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a unique solution. After extracting the unsolved Sudoku image we incorporated Knuth’s algorithm or the Dancing links algorithm to solve the Sudoku puzzle. Then using our own algorithm we embed the user’s data or a message into the Sudoku blanks without disrupting the rules of the puzzle.
  
 **The project basically has three phases:**
+
     1. Extracting the image from the user with an unsolved Sudoku.
     2. Solving the Sudoku using Knuth’s algorithm
     3. Embedding the data into the Sudoku and generating a key.
